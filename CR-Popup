@@ -71,5 +71,5 @@ pop.querySelector("form").addEventListener("submit",(event)=>{close();setCookie(
 document.body.appendChild(modal)}
 pop.classList.add("cr-popup-show")},options.timeout*1000)})}</script>
 
-<script>CRPopup({"target":"#popup","timeout":15,"cookieTimeout":"7","position":"cr-top-center","animation":"cr-fade-in","modal":true,"modalLocked":false});</script>
+<script>CRPopup({"target":"#popup","timeout":"5","cookieTimeout":"0","position":"cr-top-center","animation":"cr-fade-in","modal":true,"modalLocked":false});</script>
 <!-- ------------ /CR-Popup ------------ -->
