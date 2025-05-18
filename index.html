@@ -70,6 +70,49 @@
     </ul>
   </section>
 
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Seite mit Bild rechts</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .text {
+      flex: 1;
+      padding-right: 20px;
+    }
+    .bild {
+      width: 300px; /* Bildbreite anpassen */
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="text">
+      <h2>Willkommen auf meiner Webseite!</h2>
+      <p>Hier steht dein Text. Rechts davon erscheint das Bild.</p>
+    </div>
+    <div>
+      <img src="bilder/deinbild.jpg" alt="Bildbeschreibung" class="bild" />
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+	
   <footer>
     <p><strong>Ihr Haus in guter Hand</strong></p>
     <p>E-Mail: <a href="mailto:Anfrage-Dienstleistung@web.de">Anfrage-Dienstleistung@web.de</a></p>
@@ -111,7 +154,6 @@
 
     <label for="telefon">Telefon *</label>
     <input type="tel" id="telefon" name="telefon>	  
-
 	    
     <label for="nachricht">Nachricht *</label>
     <textarea id="nachricht" name="message" rows="6" required></textarea>
